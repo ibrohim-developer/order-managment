@@ -11,7 +11,6 @@ import {
   MenuItem,
   TextField,
   InputAdornment,
-  SelectChangeEvent,
 } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 import { Dispatch, SetStateAction } from "react";
