@@ -1,0 +1,14 @@
+import { Routes, Route } from 'react-router-dom';
+import Login from './Login';
+import Orders from './Orders';
+
+const App: React.FC = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/orders" element={<Orders />} />
+    </Routes>
+  );
+};
+
+export default App;
